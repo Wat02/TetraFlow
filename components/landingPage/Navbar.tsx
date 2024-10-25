@@ -34,16 +34,16 @@ function Navbar() {
                         <SheetTitle className="text-[#747474] text-[2rem] leading-[75%] font-bold  uppercase  pb-[2rem]">
                           Scroll To
                         </SheetTitle>
-                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[0.5rem]">
+                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[1rem]">
                           <p>Overview</p>
                         </SheetDescription>
-                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[0.5rem]">
+                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[1rem]">
                           Process
                         </SheetDescription>
-                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[0.5rem]">
+                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[1rem]">
                           Instructor
                         </SheetDescription>
-                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[0.5rem]">
+                        <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium  pb-[1rem]">
                           Pricing
                         </SheetDescription>
                         <SheetDescription className="text-[2.2rem] text-[#ECE9E4] font-medium">
@@ -51,20 +51,23 @@ function Navbar() {
                         </SheetDescription>
                       </div>
                       <div className="col-span-4  pt-[4rem]">
-                        <SheetTitle className="text-[#747474] text-[2rem] leading-[75%] font-bold  uppercase  pb-[2rem]">
+                        <SheetTitle className="text-[#747474] text-[2rem] leading-[75%] font-bold ml-[100px] md:ml-[0]  uppercase  pb-[2rem]">
                           Navigate to
                         </SheetTitle>
-                        <SheetTitle className="text-[1.125rem] text-[#ECE9E4] font-medium leading-[4rem] ml-[100px] md:ml-[0]">
+                        <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium leading-[4rem] ml-[100px] md:ml-[0] ">
                           Reviews
                         </SheetTitle>
-                        <SheetTitle className="text-[1.125rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
+                        <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
                           Team Plans
                         </SheetTitle>
-                        <SheetTitle className="text-[1.125rem] text-[#ECE9E4] font-medium leading-[4rem]  ml-[100px] md:ml-[0]">
+                        <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium leading-[4rem]  ml-[100px] md:ml-[0]">
                           Enrollment
                         </SheetTitle>
-                        <SheetTitle className="text-[1.125rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
+                        <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
                           Upgrade
+                        </SheetTitle>
+                        <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
+                          Refunds
                         </SheetTitle>
                       </div>
                       <div className="col-span-4 pt-[4rem] hidden md:flex">
