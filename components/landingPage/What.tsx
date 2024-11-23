@@ -3,6 +3,12 @@ import Image from "next/image";
 import Cor from "../Cor";
 import laptop from "@/public/laptop.jpg";
 import TestamonialText from "../TestamonialText";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 function What() {
   return (

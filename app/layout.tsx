@@ -3,6 +3,8 @@ import { Fira_Sans_Extra_Condensed as FontSans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/heme-provider";
 import { cn } from "@/lib/utils";
+import Navbar from "@/components/landingPage/Navbar";
+import Footer from "@/components/landingPage/Footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -29,7 +31,9 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
+          <Navbar />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

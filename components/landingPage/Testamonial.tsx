@@ -14,6 +14,7 @@ function Testamonial() {
               text2="Particularly the idea that people can develop and cultivate skills together rather than alone. Doing things in groups is motivating!"
               title2="vp of design - figma"
             />
+            <div></div>
           </div>
           <div className="col-span-12 md:col-span-4">
             <TestamonialText

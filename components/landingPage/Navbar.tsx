@@ -55,19 +55,22 @@ function Navbar() {
                           Navigate to
                         </SheetTitle>
                         <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium leading-[4rem] ml-[100px] md:ml-[0] ">
-                          Reviews
+                          <Link href="./">Home</Link>
+                        </SheetTitle>
+                        <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium leading-[4rem] ml-[100px] md:ml-[0] ">
+                          <Link href="./Reviews">Reviews</Link>
                         </SheetTitle>
                         <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
-                          Team Plans
+                          <Link href="./TeamPlans">Team Plans</Link>
                         </SheetTitle>
                         <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium leading-[4rem]  ml-[100px] md:ml-[0]">
-                          Enrollment
+                          <Link href="./Enrollment">Enrollment</Link>
                         </SheetTitle>
                         <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
-                          Upgrade
+                          <Link href="./Upgrade">Upgrade</Link>
                         </SheetTitle>
                         <SheetTitle className="text-[1.4rem] text-[#ECE9E4] font-medium  leading-[4rem]  ml-[100px] md:ml-[0]">
-                          Refunds
+                          <Link href="./Refunds">Refunds</Link>
                         </SheetTitle>
                       </div>
                       <div className="col-span-4 pt-[4rem] hidden md:flex">
@@ -82,13 +85,18 @@ function Navbar() {
             </Sheet>
           </div>
           <div className="col-span-3 flex">
-            <p className="text-[#ECE9E4] font-semibold transition-all ease-out hover:text-[#FE3366] pt-[8px] cursor-pointer">
+            <Link
+              className="text-[#ECE9E4] font-semibold transition-all ease-out hover:text-[#FE3366] pt-[8px] cursor-pointer"
+              href="./TeamPlans"
+            >
               Team Plans
-            </p>
+            </Link>
             <div className="ml-[10px] md:ml-[10px] mr-[10px] hidden md:flex">
-              <button className="font-bold bg-[#ECE9E4] text-center pt-[5px] pr-[10px] pl-[10px] pb-[5px] text-[18px] z-[500px] tracking-[-0.5px] rounded-[8px] text-[#0a0a0a] uppercase">
-                Notify ME
-              </button>
+              <Link href="/">
+                <button className="font-bold bg-[#ECE9E4] text-center pt-[5px] pr-[10px] pl-[10px] pb-[5px] text-[18px] z-[500px] tracking-[-0.5px] rounded-[8px] text-[#0a0a0a] uppercase">
+                  Notify ME
+                </button>
+              </Link>
             </div>
           </div>
         </div>

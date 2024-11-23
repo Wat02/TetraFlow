@@ -9,12 +9,12 @@ import HowWork from "@/components/landingPage/HowWork";
 import RightForMe from "@/components/landingPage/RightForMe";
 import Faq from "@/components/landingPage/Faq";
 import Footer from "@/components/landingPage/Footer";
+import Join from "@/components/landingPage/Join";
 
 export default function Home() {
   return (
     <section className="bg-[#0A0A0A]">
       <div>
-        <Navbar />
         <Hero />
         <Contanct />
         <About />
@@ -24,7 +24,6 @@ export default function Home() {
         <HowWork />
         <RightForMe />
         <Faq />
-        <Footer />
       </div>
     </section>
   );

@@ -48,23 +48,23 @@ function Contanct() {
           <div className="col-span-12 flex flex-row items-center justify-center mb-10 w-full pt-[4rem] pb-[4rem] ">
             {/* <AnimatedTooltip items={people} /> */}
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-row justify-center">
             {" "}
             <Image src={apple} width={50} height={50} alt="apple logo" />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-row justify-center">
             <Image src={microsoft} width={45} height={45} alt="apple logo" />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-row justify-center">
             <Image src={ea} width={45} height={45} alt="apple logo" />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-row justify-center">
             <Image src={figma} width={45} height={45} alt="apple logo" />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-row justify-center">
             <Image src={lyft} width={45} height={45} alt="apple logo" />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-2 flex flex-row justify-center">
             <Image src={slack} width={45} height={45} alt="apple logo" />
           </div>
         </div>
